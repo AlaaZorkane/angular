@@ -19,7 +19,6 @@ const Layout: FC<Props> = ({ children }) => {
     )
       setTheme("dark");
   }, []);
-  console.log(theme);
   return (
     <>
       <Head>

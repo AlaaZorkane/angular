@@ -15,8 +15,8 @@ type Props = {
 
 const ThemeSwitch: FC<Props> = ({ theme, onSwitch }) => {
   return (
-    <div
-      className="fixed select-none cursor-pointer"
+    <button
+      className="fixed select-none focus:outline-none"
       style={switchPosition}
       onClick={() => onSwitch()}
     >
@@ -25,7 +25,7 @@ const ThemeSwitch: FC<Props> = ({ theme, onSwitch }) => {
         className="text-primary"
         size="lg"
       />
-    </div>
+    </button>
   );
 };
 
