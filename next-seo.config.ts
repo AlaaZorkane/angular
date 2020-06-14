@@ -15,14 +15,15 @@ const SEO: DefaultSeoProps = {
     site_name: "Angular",
     images: [
       {
-        url: "https://angular.alaazorkane.me/assets/thumbnail.png",
+        url: "https://angular.alaazorkane.me/og-image.png",
         alt: "Angular Carrot Farmer",
+        width: 1200,
+        height: 628,
       },
     ],
   },
   twitter: {
     handle: "@AlaaZork",
-    site: "@AlaaZork",
     cardType: "summary_large_image",
   },
 };
