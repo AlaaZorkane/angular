@@ -15,7 +15,13 @@ const SEO: DefaultSeoProps = {
     site_name: "Angular",
     images: [
       {
-        url: "https://angular.alaazorkane.me/og-image.png",
+        url: "https://angular.alaazorkane.me/og-image@2.png",
+        alt: "Angular Carrot Farmer",
+        width: 600,
+        height: 314,
+      },
+      {
+        url: "https://angular.alaazorkane.me/og-image@2.png",
         alt: "Angular Carrot Farmer",
         width: 1200,
         height: 628,
