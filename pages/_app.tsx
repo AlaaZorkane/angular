@@ -1,7 +1,11 @@
 import React, { FC } from "react";
 import { AppProps } from "next/app";
+import { config } from "@fortawesome/fontawesome-svg-core";
 import "../styles/index.css";
+import "@fortawesome/fontawesome-svg-core/styles.css";
 import Layout from "@/components/Layout";
+
+config.autoAddCss = false;
 
 const App: FC<AppProps> = ({ Component, pageProps }) => (
   <Layout>

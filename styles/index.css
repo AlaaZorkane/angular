@@ -6,12 +6,12 @@
  * not using angular should be advised with all colors.
  */
 
-.theme-light {
+.theme-dark {
   --primary: hsl(0, 0%, 100%);
   --secondary: hsl(0, 0%, 5%);
 }
-.theme-dark {
-  --primary: hsl(0, 0%, 5%);
+.theme-light {
+  --primary: rgb(13, 13, 13);
   --secondary: hsl(0, 0%, 100%);
 }
 
