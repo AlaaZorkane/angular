@@ -19,6 +19,7 @@ const ThemeSwitch: FC<Props> = ({ theme, onSwitch }) => {
       className="fixed select-none focus:outline-none"
       style={switchPosition}
       onClick={() => onSwitch()}
+      aria-label="switch theme"
     >
       <FontAwesomeIcon
         icon={theme === "dark" ? faSun : faMoon}
