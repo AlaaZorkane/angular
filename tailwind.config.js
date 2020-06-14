@@ -3,7 +3,12 @@
 module.exports = {
   purge: ["./components/**/*.tsx", "./pages/**/*.tsx"],
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        primary: "var(--primary)",
+        secondary: "var(--secondary)",
+      },
+    },
   },
   variants: {},
   plugins: [],

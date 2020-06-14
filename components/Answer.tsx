@@ -9,7 +9,7 @@ const Answer: FC = () => {
       ) : (
         <button
           onClick={() => toggleAnswer(true)}
-          className="p-3 uppercase font-semibold border-2 border-black hover:bg-black hover:text-white"
+          className="p-3 uppercase font-semibold border-2 border-primary hover:bg-primary hover:text-secondary"
         >
           reveal answer
         </button>
