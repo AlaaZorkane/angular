@@ -5,7 +5,7 @@ const Answer: FC = () => {
   return (
     <div className="mx-auto">
       {answer ? (
-        <h1 className="text-6xl">No.</h1>
+        <h1 className="text-6xl capitalize">{([]+[]+[][[]])[(+!+[])]+(typeof ![])[(+!+[])]+`.`}</h1>
       ) : (
         <button
           onClick={() => toggleAnswer(true)}
