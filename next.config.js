@@ -1,5 +1,7 @@
 /* eslint-disable */
 const withCSS = require("@zeit/next-css");
 module.exports = withCSS({
-  /* config options here */
+  typescript: {
+    ignoreBuildErrors: true,
+  },
 });
